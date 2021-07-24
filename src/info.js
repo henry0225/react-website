@@ -1,0 +1,4 @@
+var information = {
+    name: '',
+    gender: '',
+}
