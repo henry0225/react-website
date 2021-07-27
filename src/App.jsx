@@ -7,7 +7,6 @@ import './App.css';
 export default class App extends React.Component{
   constructor(){
     super();
-    this.state = {test: true}
 }
 render(){
   return (
@@ -21,7 +20,7 @@ render(){
         <Route
           exact 
           path="/show" 
-          component={() => <show props = {this.state.test}/>} />
+          component={show} />
       </Switch>
     </Router>  
   );

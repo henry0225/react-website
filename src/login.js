@@ -12,9 +12,7 @@ class login extends React.Component{
   handleSubmit(event){
     event.preventDefault();
     console.log("we're in");
-    this.props.history.push("/show");
-    
-    debugger
+    this.props.history.push("/show", this.state.userName);
   }
   changeName(event){
       this.setState({
